@@ -1,0 +1,8 @@
+[webserver]
+
+192.168.43.233 ansible_user=root ansible_ssh_pass=password ansible_connection=ssh
+
+
+[haproxy]
+
+192.168.43.76 ansible_user=root ansible_ssh_pass=password ansible_connection=ssh
