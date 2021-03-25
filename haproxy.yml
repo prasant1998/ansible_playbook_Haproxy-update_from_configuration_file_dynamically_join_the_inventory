@@ -1,4 +1,4 @@
-- hosts: webserver
+- hosts: haproxy
   tasks:
   - name: "Installing httpd package"
     package:
